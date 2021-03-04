@@ -19,6 +19,7 @@ function Nav(props) {
   const options = props.movieList?.map((list) => list.data);
   const searchOptions = [];
   const flattenArray = flatten(options);
+  // eslint-disable-next-line
   const x = flattenArray?.forEach((optn) =>
     searchOptions.push({ title: optn.title, id: optn.id })
   );

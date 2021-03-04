@@ -1,11 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../css/Row.css";
-import {
-  BrowserRouter as
-  Link,
-  NavLink,
-  useHistory
-} from "react-router-dom";
+// eslint-disable-next-line
+import { BrowserRouter as Link, NavLink, useHistory } from "react-router-dom";
 
 const base_url = "https://image.tmdb.org/t/p/original";
 
